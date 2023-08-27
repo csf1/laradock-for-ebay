@@ -831,7 +831,7 @@ RUN if [ ${INSTALL_PNPM} = true ]; then \
 
 USER laradock
 
-ARG INSTALL_YARN=false
+ARG INSTALL_YARN=true
 ARG YARN_VERSION=latest
 ENV YARN_VERSION ${YARN_VERSION}
 

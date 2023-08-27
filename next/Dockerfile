@@ -1,7 +1,5 @@
-FROM node:16-alpine3.14
+FROM node:17.3.0-alpine
 WORKDIR /usr/src
-
 RUN apk update && \
-    npm install -g npm
+    yarn
 EXPOSE 3000
-
